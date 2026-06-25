@@ -37,6 +37,12 @@ const NAV = [
       { href: '/docs/internals', label: 'WAL, MVCC & ARIES' },
     ],
   },
+  {
+    section: 'Project',
+    links: [
+      { href: '/docs/changelog', label: 'Changelog' },
+    ],
+  },
 ];
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
